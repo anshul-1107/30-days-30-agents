@@ -1,0 +1,30 @@
+{
+  "product": "AeroPods X2 Wireless Earbuds",
+  "reviews": [
+    { "id": "R001", "rating": 5, "text": "Sound quality is genuinely excellent for this price. Bass is punchy without drowning the mids." },
+    { "id": "R002", "rating": 2, "text": "Battery died after 2.5 hours. The listing says 6 hours. Not even close." },
+    { "id": "R003", "rating": 4, "text": "Great sound, comfortable fit. Only issue is the case lid feels flimsy." },
+    { "id": "R004", "rating": 1, "text": "Charging case latch snapped off in week three. Now the lid won't stay shut and the buds fall out in my bag." },
+    { "id": "R005", "rating": 5, "text": "Pairing was instant with my phone. Sound is crisp. Very happy." },
+    { "id": "R006", "rating": 3, "text": "Delivery took 11 days even though it said 3-day shipping. Product itself is fine." },
+    { "id": "R007", "rating": 2, "text": "Left earbud stopped charging after a month. Right one still works. Frustrating." },
+    { "id": "R008", "rating": 4, "text": "Audio is rich and clear. Battery is okay but nowhere near the advertised runtime." },
+    { "id": "R009", "rating": 5, "text": "Best earbuds I've owned under 5000. The sound stage is surprisingly wide." },
+    { "id": "R010", "rating": 1, "text": "Arrived with the box crushed and one bud already scratched. Packaging is terrible." },
+    { "id": "R011", "rating": 3, "text": "Decent sound but I get maybe 3 hours per charge. Expected more." },
+    { "id": "R012", "rating": 4, "text": "Comfortable for long calls. Mic picks up my voice well on client calls." },
+    { "id": "R013", "rating": 1, "text": "The case hinge broke. Second pair with the same problem. Clearly a design flaw." },
+    { "id": "R014", "rating": 5, "text": "Noise isolation is solid on the train. Music sounds fantastic." },
+    { "id": "R015", "rating": 2, "text": "Customer service never replied to my email about a refund. Took two weeks to hear anything." },
+    { "id": "R016", "rating": 4, "text": "Sound is great. Battery drains faster than claimed but I charge nightly so it's fine." },
+    { "id": "R017", "rating": 3, "text": "Fit is a bit loose for my ears, they fall out when I run. Sound itself is good." },
+    { "id": "R018", "rating": 1, "text": "Case lid latch gave out within a month. Feels cheap where it matters." },
+    { "id": "R019", "rating": 5, "text": "Clear highs, warm mids, no complaints on audio at all." },
+    { "id": "R020", "rating": 2, "text": "Battery life is the dealbreaker. Two and a half hours of actual playback." },
+    { "id": "R021", "rating": 4, "text": "Solid all round. Would like a longer battery but the sound justifies it." },
+    { "id": "R022", "rating": 3, "text": "They keep disconnecting from my laptop, works fine on phone though." },
+    { "id": "R023", "rating": 5, "text": "Fantastic sound for the money. Case is small enough for a pocket." },
+    { "id": "R024", "rating": 1, "text": "Ordered black, received white. Wrong item shipped. Sending it back." },
+    { "id": "R025", "rating": 2, "text": "Latch on the charging case broke. Also battery is much worse than advertised." }
+  ]
+}
