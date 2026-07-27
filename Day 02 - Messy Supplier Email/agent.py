@@ -21,6 +21,12 @@ from pydantic import ValidationError
 
 from schema import PurchaseOrder
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
 client = genai.Client(api_key=api_key) if api_key else None
 MODEL = "gemini-3.5-flash"
