@@ -13,12 +13,15 @@ from collections import Counter
 from google import genai
 from google.genai import types
 
-# Use GEMINI_API_KEY or GOOGLE_API_KEY from environment
-api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY") or "AIzaSyBEqwydqfw7iL7Ld8XxDxZXIVP8RFWNQQk"
-if not api_key:
-    raise KeyError("Please set the GEMINI_API_KEY or GOOGLE_API_KEY environment variable.")
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
-client = genai.Client(api_key=api_key)
+# Use GEMINI_API_KEY or GOOGLE_API_KEY from environment
+api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+client = genai.Client(api_key=api_key) if api_key else None
 MODEL = "gemini-2.5-flash"
 
 
@@ -56,6 +59,8 @@ def build_prompt(data: dict) -> str:
 # ---------------------------------------------------------------- call
 
 def summarize(data: dict) -> dict:
+    if client is None:
+        raise KeyError("Please set the GEMINI_API_KEY or GOOGLE_API_KEY environment variable.")
     resp = client.models.generate_content(
         model=MODEL,
         contents=build_prompt(data),

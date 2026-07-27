@@ -141,7 +141,7 @@ st.markdown("""
 st.sidebar.header("🛠️ Settings")
 
 # API Key handling
-default_api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY") or "AIzaSyBEqwydqfw7iL7Ld8XxDxZXIVP8RFWNQQk"
+default_api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY") or ""
 api_key_input = st.sidebar.text_input(
     "Gemini API Key",
     type="password",
