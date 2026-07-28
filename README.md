@@ -11,7 +11,8 @@ This repository tracks my daily progress, architecture designs, and implementati
 | Day | Agent Name | Description | Tech Stack |
 | :--- | :--- | :--- | :--- |
 | **01** | [Product Review Summarizer](./Day%2001%20-%20Product%20Review%20Summarizer) | eCommerce review intelligence briefing with Python-verified citation checking. | `Gemini 2.5 Flash`, `Streamlit`, `Python` |
-| **02** | *Coming Soon...* | | |
+| **02** | [Messy Supplier Email](./Day%2002%20-%20Messy%20Supplier%20Email) | Raw supplier email parsing to structured PO schemas with an iterative self-correction loop. | `Gemini 3.5 Flash`, `Python`, `Pydantic` |
+| **03** | [Support Ticket Router](./Day%2003%20-%20Support%20Ticket%20Router) | Support tickets queue triage with calibrated confidence, urgency overrides, and dynamic threshold visualization. | `Gemini 3.5 Flash`, `Streamlit`, `Plotly`, `Python` |
 
 ---
 
