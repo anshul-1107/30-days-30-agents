@@ -1,0 +1,62 @@
+[
+  {
+    "id": "T001",
+    "channel": "email",
+    "from": "priya.n@gmail.com",
+    "text": "My order #48812 was supposed to arrive on the 3rd and it's now the 9th. Tracking hasn't updated in four days. Where is it?"
+  },
+  {
+    "id": "T002",
+    "channel": "whatsapp",
+    "from": "+91 98xxxxxx21",
+    "text": "the left earbud stopped charging after 3 weeks. right one is fine. what do i do"
+  },
+  {
+    "id": "T003",
+    "channel": "email",
+    "from": "accounts@sterlingtraders.in",
+    "text": "We were charged twice for invoice INV-2291. Please reverse one of the transactions and confirm. Also, can you send a GST invoice for both months while you're at it?"
+  },
+  {
+    "id": "T004",
+    "channel": "web_form",
+    "from": "anon",
+    "text": "hi"
+  },
+  {
+    "id": "T005",
+    "channel": "email",
+    "from": "rahul.d@outlook.com",
+    "text": "I've emailed three times about my refund and nobody has responded. This is the worst service I've ever dealt with. I'm going to post about this everywhere and file a complaint with consumer court if I don't hear back today."
+  },
+  {
+    "id": "T006",
+    "channel": "whatsapp",
+    "from": "+91 90xxxxxx07",
+    "text": "do these work with iphone 15? and what colours do you have"
+  },
+  {
+    "id": "T007",
+    "channel": "email",
+    "from": "meena.k@gmail.com",
+    "text": "Wanted to say the AeroPods are fantastic, best purchase this year. Quick q though - the case seems to drain even when closed, is that normal or should I be worried?"
+  },
+  {
+    "id": "T008",
+    "channel": "web_form",
+    "from": "vikram@sterlingtraders.in",
+    "text": "Order confirmed. AER-X2-BLK x 300 @ 1900. Delivery end of month."
+  },
+  {
+    "id": "T009",
+    "channel": "email",
+    "from": "unknown@protonmail.com",
+    "text": "URGENT: I think my account has been hacked. There are three orders I did not place shipping to an address in another city. Cancel them NOW and lock my account."
+  },
+  {
+    "id": "T010",
+    "channel": "whatsapp",
+    "from": "+91 99xxxxxx45",
+    "text": "product is ok but delivery guy was extremely rude and threw the package over my gate. wanted to report him"
+  }
+]
